@@ -1,0 +1,25 @@
+Product marks identify their respective products; no endorsement is implied.
+Python, Java, VS Code, C, MySQL, React, RStudio SVG assets:
+https://github.com/devicons/devicon (MIT; see LICENSE.devicon.txt).
+GNU Octave logo from the official source tree:
+https://github.com/gnu-octave/octave/blob/default/etc/icons/octave-logo.svg
+OpenAI mark (used for GPT / Codex) from Lobe Icons 1.90.0:
+https://github.com/lobehub/lobe-icons (MIT; see LICENSE.lobe.txt).
+Brand names and marks belong to their respective owners.
+
+Added 2026-10-20:
+HTML5, CSS3, JavaScript, Android Studio, Figma, GitHub, Canva and Notion:
+https://github.com/devicons/devicon/tree/master/icons (MIT, LICENSE.devicon.txt).
+HTML + CSS + JS displays the three original marks together without redrawing.
+TapNow: official apple-touch-icon.png linked from https://app.tapnow.ai/
+https://fe-assets.tapnow.media/2386cc6b4d310872460906ec10ef0814720c5109/assets/favicons/apple-touch-icon.png
+SAS: https://www.sas.com/etc/designs/saswww/apple-touch-icon-120x120.png
+WeChat Official Accounts: official touch icon linked from https://mp.weixin.qq.com/
+https://res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png
+Université Paris Cité: official monogram currently linked as its website icon at https://u-paris.fr/
+https://u-paris.fr/wp-content/uploads/2021/09/UniversiteParis_monogramme_couleur_RVB.png
+Jianying: official favicon linked from https://www.capcut.cn/
+https://lf3-s.vlabstatic.com/obj/vilab-static/ies/ulike/web/resource/fe_official/assets/imgs/lv/favicon.ico
+Machine learning / deep learning: Lucide brain-circuit / network concept icons.
+https://github.com/lucide-icons/lucide/tree/main/icons (ISC, LICENSE.lucide.txt).
+Official website icons retain their respective owners' rights.
