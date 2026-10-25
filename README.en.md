@@ -1,6 +1,6 @@
 # XUE's Space
 
-Personal website v0.0.1, built with HTML, CSS and JavaScript. No dependencies or build step are required; compatible with GitHub Pages.
+Personal website v0.0.2, built with HTML, CSS and JavaScript. No dependencies or build step are required; compatible with GitHub Pages.
 
 ## Files
 
@@ -8,9 +8,12 @@ Personal website v0.0.1, built with HTML, CSS and JavaScript. No dependencies or
 - `styles.css`: themes and responsive layout.
 - `content.js`: grouped multilingual copy, names, icons and descriptions.
 - `app.js`: routing and local preferences.
+- `cv.js`: CV download interface and a simple arithmetic prompt.
+- `assets/cv/`: original Chinese, English and French CV PDFs.
 - `globe.js`: globe rendering, 24 skill nodes and alternating feature descriptions.
 - `assets/icons/`: product marks, source notices and licenses.
-- `assets/avatar.png`: site icon and temporary portrait.
+- `assets/avatar.png`: site icon.
+- `assets/portrait.png`: home page profile portrait.
 
 - `assets/fonts/`: local Space Grotesk font, Sora and Noto Serif SC heading subsets, and OFL licenses.
 
@@ -28,9 +31,9 @@ Open http://127.0.0.1:4174 . Any static HTTP server can also serve these files.
 
 The central welcome heading uses local fonts: Space Grotesk for English, Sora for French, and Noto Serif SC for Chinese. Fonts and licenses are in `assets/fonts/`.
 
-Edit all multilingual copy in `content.js`: `pageCopy` contains page text; `skillCatalog` contains tool names, icon paths, categories and descriptions. Each field keeps `zh`, `en` and `fr` together. Typography and layout are in `styles.css`. New French or Chinese heading characters may require expanding the font subsets.
+Edit all multilingual copy in `content.js`: `pageCopy` contains page text; `skillCatalog` contains tool names, icon paths, categories and descriptions; `experienceContent` contains experience sections and entries. Each field keeps `zh`, `en` and `fr` together. Typography and layout are in `styles.css`. New French or Chinese heading characters may require expanding the font subsets.
 
-English by default, with Chinese and French translations. Dark and light themes persist locally. The Canvas skill globe rotates automatically and supports dragging; the mouse wheel scrolls the page normally. About, Experience, Knowledge and CV display a translated “Coming soon” message. Contact provides email and WeChat details. Hash routing supports direct links without server rewrite rules.
+English by default, with Chinese and French translations. Dark and light themes persist locally. The Canvas skill globe rotates automatically and supports dragging; the mouse wheel scrolls the page normally. Experience provides education, academic and other experience sections in Chinese, English and French. Knowledge introduces the planned collection of study resources in all three languages. The CV page supports Chinese, English and French interfaces and places the matching CV first. All three PDFs are available after a simple addition prompt. This client-side prompt is not access control: static PDFs remain publicly accessible through direct URLs. Contact provides email and WeChat details. Hash routing supports direct links without server rewrite rules.
 
 The globe shows 21 tools, learning areas and university entries across 24 nodes. Python, GitHub and GPT / Codex each have two antipodal nodes, with rear duplicates fading out. Product marks are genuine; learning areas use concept icons. Two nodes travel to the sides for translated descriptions, then return before the next pair. Reduced-motion preferences disable automatic rotation and cycling. Tool descriptions explain their purpose, without claiming proficiency. The introduction presents education, working approach and research interests in three languages.
 

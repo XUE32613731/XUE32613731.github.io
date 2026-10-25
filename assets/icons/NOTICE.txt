@@ -14,8 +14,8 @@ HTML + CSS + JS displays the three original marks together without redrawing.
 TapNow: official apple-touch-icon.png linked from https://app.tapnow.ai/
 https://fe-assets.tapnow.media/2386cc6b4d310872460906ec10ef0814720c5109/assets/favicons/apple-touch-icon.png
 SAS: https://www.sas.com/etc/designs/saswww/apple-touch-icon-120x120.png
-WeChat Official Accounts: official touch icon linked from https://mp.weixin.qq.com/
-https://res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png
+WeChat Official Accounts: user-supplied platform mark, replaced 2026-10-25.
+Used unchanged from the supplied reference image; rights remain with the respective owner.
 Université Paris Cité: official monogram currently linked as its website icon at https://u-paris.fr/
 https://u-paris.fr/wp-content/uploads/2021/09/UniversiteParis_monogramme_couleur_RVB.png
 Jianying: official favicon linked from https://www.capcut.cn/

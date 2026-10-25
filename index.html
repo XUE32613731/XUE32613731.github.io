@@ -8,6 +8,7 @@
   <link rel="icon" href="assets/avatar.png">
   <link rel="stylesheet" href="styles.css">
   <script src="content.js" defer></script>
+  <script src="cv.js" defer></script>
   <script src="app.js" defer></script>
   <script src="globe.js" defer></script>
 </head>
@@ -16,7 +17,7 @@
   <header class="header">
     <a class="brand" href="#/" aria-label="XUE's Space — Home"><img src="assets/avatar.png" alt=""><span>XUE's Space<span class="brand-dot">.</span></span></a>
     <nav class="navigation" aria-label="Main navigation">
-      <a href="#/about" data-i18n="about">About</a><a href="#/experience" data-i18n="experience">Experience</a><a href="#/knowledge" data-i18n="knowledge">Knowledge</a><a href="#/cv" data-i18n="cv">CV</a>
+      <a href="#/experience" data-i18n="experience">Experience</a><a href="#/knowledge" data-i18n="knowledge">Knowledge</a><a href="#/cv" data-i18n="cv">CV</a>
     </nav>
     <div class="utilities">
       <details class="dropdown" id="settings"><summary aria-label="Settings"><span class="gear">⚙</span><span class="utility-label" data-i18n="settings">Settings</span></summary><div class="popover"><span class="menu-label" data-i18n="style">Appearance</span><button data-theme-choice="dark" data-i18n="dark">Dark</button><button data-theme-choice="light" data-i18n="light">Light</button></div></details>
@@ -36,19 +37,19 @@
       <section class="introduction" id="introduction" aria-labelledby="profile-label">
         <div class="portrait-wrap">
           <h2 class="profile-label" id="profile-label" data-i18n="introLabel">PROFILE</h2>
-          <img src="assets/avatar.png" alt="XUE's illustrated cat avatar" class="portrait">
+          <img src="assets/portrait.png" alt="Runtao XUE" class="portrait">
         </div>
         <div class="intro-copy">
           <h2 class="profile-name" data-i18n="profileName">Runtao XUE</h2>
           <p data-i18n="intro">I am currently pursuing a master’s degree in Mathematical Engineering and Biostatistics at Université Paris Cité, following a dual bachelor’s degree (Bi-licence) in Mathematics and Computer Science.</p>
           <p data-i18n="introApproach">My interdisciplinary academic training has given me a solid foundation in mathematics and computer science. I place particular emphasis on logical reasoning, spatial thinking and abstract modelling, approaching complex problems from different perspectives to explore possible solutions. In my studies, research and project work, I take a rigorous, systematic and organised approach. I am comfortable conducting research and development independently and also have experience in teamwork, project organisation and coordination.</p>
           <p data-i18n="introInterests">My research interests and practical experience span several interdisciplinary fields, including biomedical data analysis, software engineering, embodied AI, AI model training and AI-powered visual creation. I enjoy exploring connections between disciplines and technologies, and seek to turn theoretical knowledge into research outcomes and creative work with practical value.</p>
-          <a class="text-link" href="#/about"><span data-i18n="more">More about me</span><span>↗</span></a>
         </div>
       </section>
     </div>
-    <section id="inner-page" class="inner-page" hidden><button class="back-button" id="back"><span>←</span> <span data-i18n="back">Back</span></button><h1 id="page-title"></h1><div class="empty-line"></div><p class="pending-update" data-i18n="pendingUpdate">Coming soon</p><dl id="contact-details" class="contact-details" hidden><div><dt data-i18n="emailLabel">Email</dt><dd><a id="contact-email"></a></dd></div><div><dt data-i18n="wechatLabel">WeChat</dt><dd id="contact-wechat"></dd></div></dl></section>
+    <section id="inner-page" class="inner-page" hidden><button class="back-button" id="back"><span>←</span> <span data-i18n="back">Back</span></button><h1 id="page-title"></h1><div class="empty-line"></div><p class="pending-update" data-i18n="pendingUpdate">Coming soon</p><div id="experience-content" class="experience-content" hidden></div><div id="cv-content" hidden></div><dl id="contact-details" class="contact-details" hidden><div><dt data-i18n="emailLabel">Email</dt><dd><a id="contact-email"></a></dd></div><div><dt data-i18n="wechatLabel">WeChat</dt><dd id="contact-wechat"></dd></div></dl></section>
   </main>
-  <footer><div class="footer-meta"><span class="version">v0.0.1</span><span class="footer-divider"></span><time datetime="2026-10-20" id="updated"></time></div><a href="#/contact"><span data-i18n="contact">Contact</span><span>↗</span></a></footer>
+  <dialog id="cv-verification" class="cv-dialog" aria-labelledby="cv-dialog-title" aria-describedby="cv-dialog-note"></dialog>
+  <footer><div class="footer-meta"><span class="version">v0.0.2</span><span class="footer-divider"></span><time datetime="2026-10-25" id="updated"></time></div><a href="#/contact"><span data-i18n="contact">Contact</span><span>↗</span></a></footer>
 </body>
 </html>
