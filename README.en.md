@@ -12,8 +12,7 @@ Personal website v0.0.2, built with HTML, CSS and JavaScript. No dependencies or
 - `assets/cv/`: original Chinese, English and French CV PDFs.
 - `globe.js`: globe rendering, 24 skill nodes and alternating feature descriptions.
 - `assets/icons/`: product marks, source notices and licenses.
-- `assets/avatar.png`: site icon.
-- `assets/portrait.png`: home page profile portrait.
+- `assets/avatar.png`: site icon and home page cat avatar.
 
 - `assets/fonts/`: local Space Grotesk font, Sora and Noto Serif SC heading subsets, and OFL licenses.
 

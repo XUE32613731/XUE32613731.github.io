@@ -114,4 +114,4 @@ html:lang(zh) .profile-name{font-family:'Noto Serif SC','Source Han Serif SC','S
 .cv-materials{margin:28px 0 0;font-size:14px;line-height:1.9;color:var(--muted)}
 .cv-contact{color:var(--accent);text-decoration:underline;text-underline-offset:4px}
 
-:root[data-theme=dark] .portrait{filter:brightness(.8)}
+
